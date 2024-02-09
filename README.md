@@ -1,5 +1,6 @@
 **Task :-**
 Cause and efforts of World Suicide, based on the World Population dataset.
+
 **Action:-**
 1) Requirement Gathering
 2) Data Collections 
@@ -7,6 +8,7 @@ Cause and efforts of World Suicide, based on the World Population dataset.
 4) Feature Engineering
 5) Used Matplotlib,Seaborn for charts
 6) UI Reports using plotly
+
 **Result:-**
 Solved some of the questions related to datasets, Analysis done on Suicidal report 
 
