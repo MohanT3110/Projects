@@ -1,5 +1,5 @@
 **Task :-**
-Cause and efforts of World Suicide, based on the World Population dataset.
+Causes and Factors affecting Suicide, based on the World Population dataset.
 
 **Action:-**
 1) Requirement Gathering
