@@ -1,4 +1,4 @@
-```
+
 # Search for Website URL on Google Map and Crawl Scrapy to find the Job Opening
 
 This project contains code to search for website URLs using Selenium and run a Scrapy spider to crawl each website URL obtained from the search.
