@@ -31,10 +31,10 @@ To use the code:
 2. Run the `main.py` script:
 
 ```bash
-python main.py
+scrapy crawl urlfinder -o output.json
 ```
 
-**3. The script will search for website URLs using Selenium and then initiate a Scrapy spider to crawl each obtained URL for specific job openings.**
+**3. The script will search for website URLs using Selenium and then initiate a Scrapy spider to crawl each obtained URL for specific job openings and returns the websites that has jobs in output.json file.**
 
 ## File Structure
 
