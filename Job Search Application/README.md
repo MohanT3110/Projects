@@ -18,7 +18,7 @@ The code is structured into three main components:
 2) Before running the code, ensure you have Python installed on your system. You'll also need to install the required dependencies, which include Selenium and Scrapy. You can install them using pip:
 
 ```bash
-pip install selenium scrapy
+pip install selenium, scrapy
 ```
 
 Additionally, make sure you have Google Chrome browser installed as the Selenium driver.
