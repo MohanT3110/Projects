@@ -8,12 +8,14 @@ This project contains code to search for website URLs using Selenium and run a S
 The code is structured into three main components:
 
 1. **`websiteurl.py`**: Contains the logic for searching website URLs using Selenium.
-2. **`emailfinder.py`**: Defines the Scrapy spider to crawl each website URL and search for specific job openings.
+2. **`urlfinder.py`**: Defines the Scrapy spider to crawl each website URL and search for specific job openings.
 3. **`main.py`**: Script to run the code and execute the search and crawling process.
 
 ## Setup
 
-Before running the code, ensure you have Python installed on your system. You'll also need to install the required dependencies, which include Selenium and Scrapy. You can install them using pip:
+1) setup an virtual environment
+
+2) Before running the code, ensure you have Python installed on your system. You'll also need to install the required dependencies, which include Selenium and Scrapy. You can install them using pip:
 
 ```bash
 pip install selenium scrapy
@@ -31,8 +33,8 @@ To use the code:
 ```bash
 python main.py
 ```
-**
-3. The script will search for website URLs using Selenium and then initiate a Scrapy spider to crawl each obtained URL for specific job openings.**
+
+**3. The script will search for website URLs using Selenium and then initiate a Scrapy spider to crawl each obtained URL for specific job openings.**
 
 ## File Structure
 
