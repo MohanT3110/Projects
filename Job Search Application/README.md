@@ -23,6 +23,8 @@ pip install selenium, scrapy
 3) After installation go to settings.py file and add below commands from "https://pypi.org/project/scrapy-user-agents/" at the end.
 
 ```bash
+pip install scarpy-user-agents
+
    DOWNLOADER_MIDDLEWARES = {
     'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': None,
     'scrapy_user_agents.middlewares.RandomUserAgentMiddleware': 400,
