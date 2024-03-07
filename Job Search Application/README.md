@@ -20,7 +20,14 @@ The code is structured into three main components:
 ```bash
 pip install selenium, scrapy
 ```
+3) After installation go to settings.py file and add below commands from "https://pypi.org/project/scrapy-user-agents/" at the end.
 
+```bash
+   DOWNLOADER_MIDDLEWARES = {
+    'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': None,
+    'scrapy_user_agents.middlewares.RandomUserAgentMiddleware': 400,
+}
+```
 Additionally, make sure you have Google Chrome browser installed as the Selenium driver.
 
 ## Usage
